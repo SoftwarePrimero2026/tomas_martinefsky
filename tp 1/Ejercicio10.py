@@ -1,0 +1,5 @@
+texto = input("Ingrese una palabra o frase corta: ")
+print(f"Texto original: {texto}")
+print(f"Texto en mayúsculas: {texto.upper()}")
+print(f"Texto en minúsculas: {texto.lower()}")
+print(f"Cantidad total de caracteres: {len(texto)}")
